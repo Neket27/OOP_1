@@ -2,13 +2,13 @@ package OOP_1;
 
 class InformationDevice {
 
-    public String model;
-    public int price;
-    public String cpu;
-    public String gpu;
-    public String color;
-    public String weight;
-    public boolean informationFlag;
+    protected String model;
+    protected int price;
+    protected String cpu;
+    protected String gpu;
+    protected String color;
+    protected String weight;
+    protected boolean informationFlag;
 
 
     public InformationDevice(String model, int price, String cpu, String gpu, String color, String weight) {
